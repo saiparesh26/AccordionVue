@@ -4,10 +4,10 @@
             <div class="level">
                 <div class="level-left">
                     <div class="level-item">
-                        <p>BillingDocumentLine</p>
+                        <p class="subtitle is-6 has-text-white">BillingDocumentLine</p>
                     </div>
                 </div>
-                <div class="level-right" style="margin-left: 135px">
+                <div class="level-right" style="margin-left: 150px">
                     <div class="level-item">
                         <a @click="onShow"> <i id = "mainIcon" class="fas fa-plus"></i> </a>
                     </div>
@@ -73,7 +73,7 @@ import 'bulma/css/bulma.css'
 export default {
     data: function(){
         return {
-            open: false
+            open: true
         }
     },
     methods: {

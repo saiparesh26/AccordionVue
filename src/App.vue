@@ -4,6 +4,8 @@
       <div class="column"></div>
       <div class="column">
         <Accordion />
+        <L2 />
+        <L3 />
       </div>
       <div class="column"></div>
     </div>
@@ -12,10 +14,15 @@
 
 <script>
 import Accordion from './components/Accordion.vue';
+import L2 from './components/L2.vue';
+import L3 from './components/L3.vue';
+
 export default {
   name: 'App',
   components: {
-    Accordion
+    Accordion,
+    L2,
+    L3
   }
 }
 </script>
