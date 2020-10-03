@@ -7,7 +7,7 @@
                         <p>BillingDocumentLine</p>
                     </div>
                 </div>
-                <div class="level-right" style="margin-left: 230px">
+                <div class="level-right" style="margin-left: 135px">
                     <div class="level-item">
                         <a @click="onShow"> <i id = "mainIcon" class="fas fa-plus"></i> </a>
                     </div>
@@ -94,5 +94,7 @@ export default {
 </script>
 
 <style scoped>
-    
+    .message{
+        width: 350px;
+    }
 </style>
