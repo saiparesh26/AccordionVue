@@ -19,29 +19,29 @@
              <div class="level">
                 <div class="level-left">
                     <div class="level-item">
-                        <p>File Type Generated</p>
+                        <p class="has-text-white">File Type Generated</p>
                     </div>
                 </div>
                 <div class="level-right" >
                     <div class="level-item">
-                        <a> <i class="fas fa-plus"></i> </a>
+                        <a> <i class="fas fa-plus has-text-white"></i> </a>
                     </div>
                 </div>
             </div>
-            
+            <hr class="hr">
             <div class="level">
                 <div class="level-left">
                     <div class="level-item">
-                        <p>Notebook</p>
+                        <p class="has-text-white">Notebook</p>
                     </div>
                 </div>
                 <div class="level-right" >
                     <div class="level-item">
-                        <a> <i class="fas fa-plus"></i> </a>
+                        <a> <i class="fas fa-plus has-text-white"></i> </a>
                     </div>
                 </div>
             </div>
-            
+            <hr class="hr">
         </div>
 </article>
 </template>
@@ -74,5 +74,16 @@ export default {
 <style scoped>
     .message{
         width: 350px;
+    }
+    .message-body{
+        background: #7F3CD2;
+    }
+    .message-header{
+        background: #7F3CD2;
+    }
+    .hr{
+        height: 1px;
+        background: white;
+        opacity: 0.2;
     }
 </style>
