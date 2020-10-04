@@ -6,6 +6,7 @@
         <Accordion />
         <L2 />
         <L3 />
+        <BDL />
       </div>
       <div class="column"></div>
     </div>
@@ -16,13 +17,15 @@
 import Accordion from './components/Accordion.vue';
 import L2 from './components/L2.vue';
 import L3 from './components/L3.vue';
+import BDL from './components/BDLEnhanced.vue';
 
 export default {
   name: 'App',
   components: {
     Accordion,
     L2,
-    L3
+    L3,
+    BDL
   }
 }
 </script>
